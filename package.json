@@ -1,0 +1,22 @@
+{
+  "name": "exp",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Zenitsu",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.2",
+    "pug": "^3.0.2"
+  }
+}
